@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <PackageReference Include="MathNet.Numerics" Version="4.15.0" />
+    <Reference Include="Castle.Core">
+      <HintPath>..\Matrix\bin\Debug\net5.0\ref\Matrix.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
